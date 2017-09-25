@@ -10,4 +10,12 @@ span {
 #new-moz{
 
 }
+.Hedgehog{
+	background-color:grey;
+	width:70%;
+	height:100%;
+	overflow:auto;
+	margin:20px,10px,20px,10px;
+	float:right;
+}
 
