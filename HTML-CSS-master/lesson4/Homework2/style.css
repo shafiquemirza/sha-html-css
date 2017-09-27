@@ -1,0 +1,46 @@
+
+
+@media only screen 
+and (max-width: 500px) and (min-width: 390px) {
+   #grid-floats .grid-item:nth-child(1n+2) {
+	background:#9fff63;
+	width:50%;
+	float:left;
+	font-size:10px;
+
+
+	 }
+ #grid-floats img:nth-child(1n+2) {
+ 	background-color:aqua;
+ 	width:100%;
+ }
+   #grid-floats .grid-item:nth-child(2) {
+   	clear:left;
+   }
+
+ }
+@media only screen
+and (max-width: 790px) and (min-width: 505px) {
+	#grid-floats .grid-item:nth-child(3n+3) {
+		width:30%%;
+		background:blue;
+		font-size:12px;
+		margin:5px 5px 5px 5px;
+
+	}
+ #grid-floats .grid-item:nth-child(3) {
+    	clear:left;
+	margin:5px 5px 5px 5px;
+
+}  
+#grid-floats .grid-item {
+	float:left;
+}
+}
+
+
+
+
+
+
+

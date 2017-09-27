@@ -15,7 +15,7 @@ img{
   width:15%;
 }
 .floatingStuff{
-  float:left;
+  float:right;
 
 }
 .clear{
@@ -72,3 +72,5 @@ body {
   }
   
 }
+
+
